@@ -30,7 +30,7 @@ void main() {
 Or manually instantiate in a class by extending __StatelessWidget__
 ```dart
 void main() {
-  runApp(AwesomeWidget);
+  runApp(AwesomeWidget());
 }
 
 class AwesomeWidget extends StatelessWidget {
